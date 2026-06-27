@@ -3,14 +3,14 @@
 An exploratory data analysis (EDA) of a synthetic smartwatch sleep dataset,
 investigating what is associated with longer deep sleep.
 
-## 🎯 Project Question
+## Project Question
 **What factors are associated with longer deep sleep (in minutes)?**
 
 I created a target variable, `deep_sleep_minutes`, from total sleep duration and
 the deep-sleep percentage, then tested it against demographic, lifestyle, and
 physiological variables.
 
-## 🔑 Key Findings
+## Key Findings
 - Deep sleep is bell-shaped with a slight right skew; the median night has about
   79 minutes, and ~39% of nights fall between 60 and 90 minutes.
 - **No relationship with age** (r = 0.01) — notable, since real-world deep sleep
@@ -26,20 +26,20 @@ physiological variables.
 quality but is not driven by any measurable behaviour or demographic. All
 relationships are correlational, not causal.
 
-## 🛠️ Tools
+## Tools
 Python, pandas, NumPy, Matplotlib, Seaborn (in Google Colab). Data loaded via
 the Kaggle API (`kagglehub`).
 
-## 📊 Dataset
+## Dataset
 - 20,000 synthetic sleep sessions from 2,000 users (2018–2025), 45 columns.
 - Fully synthetic and privacy-safe; no real user data.
 - Source: [Smartwatch Sleep Tracking Dataset on Kaggle](https://www.kaggle.com/datasets/mirzayasirabdullah07/smartwatch-sleep-tracking-dataset-20182025)
 
-## ▶️ Running the notebook
+## Running the notebook
 This notebook loads the data through the Kaggle API. To run it yourself, add your
 own Kaggle token in Colab (Secrets → `KAGGLE_API_TOKEN`), or download the CSV
 directly from the Kaggle link above.
 
-## 📜 Credit
+## Credit
 Dataset by Abdullah, Y. (2025), *Smartwatch Sleep Tracking Dataset (Synthetic,
 2018–2025)*, released under CC BY 4.0.
